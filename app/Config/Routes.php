@@ -7,3 +7,9 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::index');
 $routes->get('/getData', 'MainController::getData');
+
+#------------------------------------------------------------#
+
+#For Login
+
+$routes->get('/home', 'UsersController::index');
