@@ -12,4 +12,4 @@ $routes->get('/getData', 'MainController::getData');
 
 #For Login
 
-$routes->get('/home', 'UsersController::index');
+$routes->get('/login', 'UsersController::index');

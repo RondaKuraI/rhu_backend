@@ -8,6 +8,17 @@ class UsersController extends BaseController
 {
     public function index()
     {
-        echo "<h4>efwefwfw</h4>";
+        $data = [];
+        helper(['form']);
+
+        return view('login');
+    }
+
+    public function register()
+    {
+        $data = [];
+        helper(['form']);
+
+        return view('register');
     }
 }
