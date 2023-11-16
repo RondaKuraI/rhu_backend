@@ -12,4 +12,4 @@ $routes->get('/getData', 'MainController::getData');
 
 #For Login
 
-$routes->match(['get', 'post'], '/login', 'UserController::login');
+$routes->match(['get', 'post'], 'api/login', 'UserController::login');
