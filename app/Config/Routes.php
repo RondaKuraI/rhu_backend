@@ -12,5 +12,4 @@ $routes->get('/getData', 'MainController::getData');
 
 #For Login
 
-$routes->get('/login', 'UsersController::index');
-$routes->match(['get', 'post'], '/register', 'UsersController::register');
+$routes->match(['get', 'post'], '/login', 'UserController::login');
